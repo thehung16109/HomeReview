@@ -14,8 +14,8 @@
     <li>NodeJS (dùng để cài đặt gói)</li>
     <li>Apache Http Server (có thể dùng Wamp, Xamp hoặc Laragon)</li>
 </ul>
-<b>Tiến hành các bước</b>
-<b>Bước 1: Git clone dự án về máy, sau đó cd tới đường dẫn của bạn</b>
+<b>Tiến hành các bước</b> </br>
+<b>Bước 1: Git clone dự án về máy, sau đó cd tới đường dẫn của bạn</b> </br>
 <b>Bước 2: Cài các gói composer</b>
 <p>Bạn vào cmd, gõ câu lệnh sau: <code>composer install</code> và chờ các gói được cài đặt xong</p>
 <b>Bước 3: Cài các gói npm</b>
