@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center; 
+    color:blue;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.i-checks {
+    margin: auto;
+}
+
+.fa-eye-style {
+    color:blue;
+    font-size: 150%;
+}
+
+.fa-eye-slash-style {
+    font-size: 150%;
+}
+
+.form-control {
+    border-radius: .25rem;
+}
+
+.x_panel {
+    border-radius: .40rem;}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main_manu .fas {
+    width: 26px;
+    opacity: .99;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+a.show_images {
+    font-size: 85%; 
+    color:blue;
+}
+
+a.show_images:hover {
+    font-weight: bold;
+}
+
+/* Trang tổng quan  */
+.text-success {
+    color: blue!important;
+    
+}
+
+.border-success {
+    border-color: black !important;
+    border-radius: 20px;
+}
+
+.card-header {
+    color: black;
+}
+.card-title {
+    text-align: center;
+    font-size: 100px;  
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 30px;
+}

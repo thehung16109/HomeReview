@@ -1,0 +1,339 @@
+.slide-admin {
+    background-color: antiquewhite;
+    height: 1000px;
+}
+/* Author: Nguyen Thi Bich Phuong, 17520926 */
+/* Author: Phung The Hung, 18520808 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* NAV bar */
+.nav-bar {
+    border-radius: .25rem;
+}
+.mynavbar {
+    height: 48px;
+}
+.navbar-toggler-icon i {
+    vertical-align: middle;
+}
+
+button.navbar-toggler {
+    border: black solid;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0;
+}
+.nav-link:hover {
+    color: #f68a39;
+}
+.nav-link:focus {
+    color: #f68a39;
+}
+.nav-link::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 0%;
+    background-image: linear-gradient(245deg, red, #ff9800);
+    position: relative;
+    top: 2px;
+    transition: all 0.5s;
+    left: -4px;
+}
+.nav-item:hover .nav-link::after {
+    width: 100%;
+}
+
+/* End NAVBAR */
+
+/* Seach */
+.search-box {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.search-box.active {
+    width: 100%;
+}
+.search-box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #fff;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+.search-box .search-btn {
+    height: 30px;
+    width: 50px;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: rgb(7, 7, 7);
+    vertical-align: middle;
+    z-index: 1;
+}
+.search-box .cancel-btn {
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    position: absolute;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: white;
+    vertical-align: middle;
+}
+.search-box .cancel-btn.active {
+    z-index: 1;
+}
+
+/* Link */
+a {
+    color: #f68a39;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f68a39;
+}
+
+/* Carousel */
+.carousel img {
+    width: 100%;
+    height: 500px;
+    transition: all 0.5s;
+}
+.carousel-left {
+    position: relative;
+}
+.carousel-caption h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-caption {
+    background-color: #0000006b;
+}
+.carousel h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.carousel-overlay1 h6 {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-color: #f68a39;
+}
+.carousel-overlay h6 {
+    position: absolute;
+    top: 0;
+    left: auto;
+    background-color: #f68a39;
+}
+.item {
+    overflow: hidden;
+    border: transparent 1px solid;
+}
+.item:hover img {
+    transform: scale(1.1);
+}
+/*END Carousel */
+
+/* Title */
+.tag-heading {
+    background-color: black;
+    font-size: 16px;
+    height: 42px;
+    width: 220px;
+    text-align: center;
+    line-height: 42px;
+    vertical-align: middle;
+    border-radius: 24px;
+    margin-bottom: 20px;
+}
+
+.tag-heading a {
+    color: white;
+    font-weight: bold;
+}
+
+.tag-heading a:hover {
+    color: #f68a39;
+}
+
+/* Style for Image in list most view */
+img.myimg {
+    border-radius: 7px;
+    height: 190px;
+    width: 100%;
+    box-shadow: 0px 0px 10px #0000005c !important;
+    transition: all 0.5s;
+}
+
+img.myimg:hover {
+    transform: scale(1.04);
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 55px;
+    left: 14px;
+    background-color: #f68a39;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bottom-left:hover {
+    background-color: black;
+}
+
+a.titleimg {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+a.titleimg:hover {
+    color: #f68a39;
+}
+
+a.tagimg {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    padding: 10px 20px;
+}
+#navbarDropdown::after {
+    background-image: linear-gradient(
+        245deg,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    );
+}
+a.tagimg:hover {
+    color: #f68a39;
+}
+
+/* Style for Image in list popular */
+img.myimg1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 260px;
+    height: 198;
+}
+
+img.myimg1:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+img.myimg2 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 520px;
+    height: 435px;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    padding: 50px 50px 0 50px;
+    color: white;
+}
+
+.input-group {
+    margin: 60px 0;
+}
+
+.input-group-text {
+    background-color: #f68a39;
+    color: white;
+}
+
+.chinhanh a {
+    color: white;
+}
+
+.chinhanh a:hover {
+    color: #f68a39;
+}
+
+a.lienhe {
+    color: white;
+}
+
+a.lienhe:hover {
+    color: #f68a39;
+}
+
+.footer-item {
+    margin-bottom: 20px;
+}
+
+.final-footer {
+    border-top: 1px solid white;
+    padding-top: 30px;
+}
+
+.final-footer a {
+    color: #f68a39;
+}
+
+/* Button scroll to top */
+#myBtn {
+    border: none;
+    background-color: #f68a39;
+    color: white;
+    padding: 12px 16px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+.homestay-right {
+    overflow: scroll;
+    height: 900px;
+}
+.content-p img {
+    width: 100%;
+}
+.summary_post {
+    display: block; /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 9.9em;
+    line-height: 1.8em;
+}
+.blog-left {
+}
+.blog-left {
+}
